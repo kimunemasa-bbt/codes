@@ -18,7 +18,7 @@ app = Flask(__name__)
 def home(): 
     return 'Hello, World!'
     #Using template
-    #return render_template('default.html',url="home")
+    # return render_template('default.html',url="home")
 
 ##### Run the Flask instance, browse to http://<< Host IP or URL >>:5000 #####
 if __name__ == "__main__":
